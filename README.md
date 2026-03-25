@@ -25,6 +25,15 @@ The app will be available at http://localhost:8000
 - Email: candidate@example.com
 - Password: password
 
+## Output
+
+When you're done, submit the following:
+
+1. **GitHub repo** — fork this repo, push your work to a new branch, and share the link
+2. **Screen recording** — upload to YouTube (unlisted) or Google Drive and share the link
+
+Both links are required.
+
 ## Assessment Instructions
 
 ### Format
@@ -93,11 +102,5 @@ This is NOT expected — it's a bonus for candidates who move fast. Don't attemp
 4. **Speed & prioritization** — How far you got, smart tradeoffs
 5. **Communication** — Think aloud clarity, explaining decisions
 6. **Problem-solving** — How you handle blockers and debugging
-
-### Submission
-
-1. Push your code to a new branch
-2. Share the screen recording link
-3. That's it!
 
 Good luck! 🚀
