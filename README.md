@@ -76,6 +76,22 @@ Add real-time notifications when someone adds a comment to a task.
 - Show a notification/toast when a new comment appears
 - Auto-append the new comment without page refresh
 
+#### 🌟 Bonus: Activity Log
+
+If you finish the tasks above and still have time, add an activity log to tasks.
+
+**Requirements:**
+
+- Create an `activity_logs` table: action (string), description (text), user_id, subject_type, subject_id (polymorphic), timestamps
+- Create ActivityLog model with polymorphic `subject` relationship
+- Automatically log events using Model Observers:
+  - Task created / updated / deleted
+  - Comment added (if you built Task 2)
+- API endpoint: get activity log for a task
+- Vue component: timeline/feed on the task detail page showing the history
+
+This is NOT expected — it's a bonus for candidates who move fast. Don't attempt it before completing the main tasks.
+
 ### What We Evaluate
 
 1. **Planning & approach** — How you start, do you read code first?
